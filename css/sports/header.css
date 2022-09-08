@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.nav-top {
+    padding: 11px 10px;
+    background-color: #f8f4f4;
+}
+
+.nav-container {
+    max-width: 1320px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.header-container {
+    max-width: 1320px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.nav-top ul {
+    list-style: none;
+    font-size: 15px;
+}
+
+.nav-top ul li a {
+    display: inline-block;
+    text-decoration: none;
+    padding-right: 7px;
+}
+
+#links {
+    display: flex;
+}
+
+nav li a {
+    font-weight: bold;
+}
+
+nav li a:hover {
+    opacity: .8;
+}
+
+nav li:nth-child(1) a {
+    color: #0069DE;
+    border-right: solid 1px #DDDDDD;
+}
+
+nav li:nth-child(2) a {
+    color: #C4170C;
+    padding-left: 7px;
+    border-right: solid 1px #DDDDDD;
+}
+
+nav li:nth-child(3) a {
+    color: #06AA48;
+    padding-left: 7px;
+    border-right: solid 1px #DDDDDD;
+}
+
+nav li:nth-child(4) a {
+    color: #FF6700;
+    padding-left: 7px;
+    border-right: solid 1px #DDDDDD;
+}
+
+nav li:nth-child(5) a {
+    color: #FB0234;
+    padding-left: 7px;
+}
+
+.nav-top .login {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.nav-top .login p {
+    padding-right: 8px;
+    color: #999999;
+    font-size: 12px;
+}
+
+.section-header {
+    background: #06AA48;
+    padding: 18px 18px;
+    width: 100%;
+}
+
+.section-header .side-menu {
+    padding-left: 8px;
+}
+
+.section-header .side-menu .burger div {
+    width: 20px;
+    height: 2px;
+    background-color: white;
+    margin: 4px 0;
+}
+
+.section-header .section {
+    color: white;
+    font-size: 32px;
+    font-weight: lighter;
+    position: relative;
+    right: -97px;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.section-header .search-container {
+    display: flex;
+}
+
+.section-header input[type=text] {
+    padding: 8px 6px;
+    font-size: 15px;
+    border: none;
+    background: #05903d;
+    margin-top: 2px;
+    font-weight: 700;
+}
+
+.section-header input[type=text]::placeholder {
+    color: white;
+}
+
+.section-header .search-container button {
+    padding: 11px 10px;
+    margin-top: 2px;
+    background: #05903d;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.section-header .search-container button:hover {
+    background: #03662b;
+}
+
+.enter {
+    padding: 2px;
+    color: #666666;
+    box-shadow: 0px 0px 2px 0px;
+    border-radius: 4px;
+    font-size: 12px;
+    padding: 2px 3px;
+}

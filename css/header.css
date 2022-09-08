@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#menu-h #menu-top {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: solid 2px #F5F6F7;
+}
+
+#menu-h #menu-top #side-menu {
+    display: flex;
+    align-items: center;
+}
+
+#menu-h #menu-top #side-menu span {
+    color: #2F3134;
+    padding: 0px 8px 0px 13px;
+}
+
+#menu-h #menu-top #side-menu span.menu {
+    border-right: solid 1px #EBEDEF;
+}
+
+#menu-h #menu-top #search {
+    display: flex;
+    align-items: center;
+}
+
+#menu-h #menu-top #search .account-box {
+    display: flex;
+    align-items: center;
+    border-right: solid 1px #EBEDEF;
+    padding-right: 8px;
+}
+
+#menu-h #menu-top #search .account-box svg{
+    color: #0131FF;
+}
+
+#menu-h #menu-top #search .search-box {
+    display: flex;
+    align-items: center;
+}
+
+#menu-h #menu-top #search div span {
+    color: #2F3134;
+    padding: 0px 8px 0px 13px;
+}
+#menu-h #menu-top #search .search-box svg{
+    color: #0131FF;
+}
+
+#menu-h ul {
+    list-style: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: solid 2px #F5F6F7;
+}
+
+#menu-h ul li a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+#links {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li a{
+    font-weight: bold;
+}
+
+nav li a:hover {
+    opacity: .8;
+}
+
+nav li:nth-child(1) a {
+    color: #C4170C;
+}
+
+nav li:nth-child(2) a {
+    color: #1E4C9A;
+}
+
+nav li:nth-child(3) a {
+    color: #006767;
+}
+
+nav li:nth-child(4) a {
+    color: #06AA48;
+}
+
+nav li:nth-child(5) a {
+    color: #FF7400;
+}
+
+nav li:nth-child(6) a {
+    color: #FB0234;
+}
+
+nav li:nth-child(7) a {
+    color: #FF6700;
+}
+
+nav li:nth-child(8) a {
+    color: #333333;
+}
+
+nav li:nth-child(9) a {
+    color: #A5147D;
+}
+
+nav li:nth-child(10) a {
+    color: #00C4A2;
+}
